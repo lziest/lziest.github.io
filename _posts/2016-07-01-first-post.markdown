@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "To vendor or not to vendor, this is a question."
+title:  "To vendor or not to vendor, that is a question."
 date:   2016-07-02 20:00:00 -0700
 categories: golang programming
 ---
@@ -22,7 +22,7 @@ that package at different time. Since lib devs should not care
 about compatibility. Some libsa metrics use v1
 and others use v2.
 
-Alice wants to write a simple http server using a popular metrics
+Suppose Alice wants to write a simple http server using a popular metrics
 server package and a popular Restful framework. But since
 the two dependencies uses different versions of `httpframework`,
 Alice is essentially unable to write the program. The dependencies
@@ -42,6 +42,5 @@ global state.
 The [splitbrain](https://github.com/lziest/splitbrain) example I listed
 above illustrates this problem really well.
 
-So to vendor or not to vendor, this is a question.
-
+So to vendor or not to vendor, that is a question.
 
